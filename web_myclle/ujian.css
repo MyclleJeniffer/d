@@ -1,0 +1,29 @@
+.head{
+    position: absolute;
+    left: 20px;
+    top: 130px;
+}
+.header{
+    font-style: oblique;
+    font-size:larger;
+}
+.nilai1{
+    position: absolute;
+    left: 500px;
+    top: 215px;
+}
+.nilaimentah{
+    position: absolute;
+    left: 50px;
+    top: 215px;
+}
+.akhir{
+    position: absolute;
+    left: 300px;
+    top: 400px;
+}
+.button{
+    position: absolute;
+    left: 430px;
+    top: 350px;
+}

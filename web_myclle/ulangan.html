@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayar</title>
+    <link rel="stylesheet" href="ulangan.css">
+</head>
+<script src="ulangan.js"></script>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Toko Wriothesley</h1>
+        </div>
+        <div class="nav">
+            <p>Pembelian diatas 100 barang akan mendapatkan diskon 10% <br>
+            Pembelian diatas 50 barang mendapatkan diskon 5%</p>
+        </div>
+        <form action="">
+        <div class="harga">
+            <div class="harga1">
+                <label for="harga">Harga Barang<label>
+            </div>
+            <div class="harga2">
+                <input type="text" name="harga" id="harga"> <br>
+            </div>
+        </div>
+        <div class="jumlah">
+            <div class="jumlah1">
+                <label for="jumlah">Jumlah Barang</label>
+            </div>
+            <div class="jumlah2">
+                <input type="text" name="jumlah" id="jumlah"> <br>
+            </div>
+        </div>
+        <div class="button">
+            <button type="button" onclick="total_belanja()">Hitung</button> <br>
+        </div>
+        <div class="total">
+            <div class="total1">
+                <label for="total">Total</label>
+            </div>
+            <div class="total2">
+                <input type="text" name="total" id="total"><br>
+            </div>
+        </div>
+        <div class="totaldis">
+            <div class="totaldis1">
+                <label for="total2">Total setelah diskon</label>
+            </div>
+            <div class="totaldis2">
+                <input type="text" name="total2" id="total2">
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

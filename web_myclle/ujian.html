@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ujian.css">
+</head>
+<body style="background-color: cornflowerblue;">
+    <div class="header" style="text-align: center;">
+        <h1>Nilai Rapor Siswa SMK Cinta Ilmu</h1> <br> <br>
+    </div>
+    <div class="head">
+        <tr style="background-color: aquamarine;">
+            <td>
+                <label for="nama">Nama</label>
+            </td>
+            <td>
+                <input type="nama" name="nama" id="nama">
+            </td> <br> <br> <br> <br>
+        </tr>
+    </div>
+    <div class="nilaimentah">
+        <table border="1" style="background-color: aqua;">
+            <tr>
+                <td>
+                    <label for="praktik1">Nilai Praktik 1</label>
+                </td>
+                <td>
+                    <input type="praktik1" name="praktik1" id="praktik1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="praktik2">Niai Praktik 2</label>
+                </td>
+                <td>
+                    <input type="praktik2" name="praktik2" id="praktik2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sumatif1">Nilai Sumatif Tengah Semester</label>
+                </td>
+                <td>
+                    <input type="sumatif1" name="sumatif1" id="sumatif1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sumatif2">Nilai Sumatif Akhir Semester</label>
+                </td>
+                <td>
+                    <input type="sumatif2" name="sumatif2" id="sumatif2">
+                </td>
+            </tr>
+        </table> <br>
+    </div>
+    <div class="nilai1">
+        <table border="1" style="background-color: aqua;">
+            <tr>
+                <td>
+                    <label for="praktik">Nilai Praktik</label>
+                </td>   
+                <td>
+                    <input type="praktik" name="praktik" id="praktik">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="teori">Nilai Teori</label>
+                </td>
+                <td>
+                    <input type="teori" name="teori" id="teori">
+                </td>
+            </tr>
+       </table>
+    </div> <br>
+    <div class="akhir">
+        <table border="1" style="background-color: aqua;">
+            <tr>
+                <td>
+                    <label for="akhir">Nilai Akhir Rapor</label>
+                </td>
+                <td>
+                    <input type="akhir" name="akhir" id="akhir">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="huruf">Nilai Huruf Rapor</label>
+                </td>
+                <td>
+                    <input type="huruf" name="huruf" id="huruf">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="button">
+        <button type="button" onclick="nilai_siswa()">Hitung</button>
+    </div>
+    <script src="ujian.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: rgb(247, 216, 159);
+    color: whitesmoke;
+    font-family: "Kode Mono", monospace;
+}
+image{
+    width: 50;
+    height: auto;
+}
+button{
+    border-radius: 20x;
+    width: 50px;
+    height: 25px;
+    color: white;
+    background-color: orange;
+}
+button:hover{
+    background-color: rgb(245, 119, 119);
+}
